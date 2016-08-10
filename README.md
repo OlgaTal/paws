@@ -1,5 +1,5 @@
 ## paws
-* Simple project:
+* Simple Java project (IntelliJ):
  * gradle
  * mySQL
  * hibernate
