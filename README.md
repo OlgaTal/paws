@@ -1,5 +1,5 @@
 ## paws
-Markup : * Simple project:
+ Markup : * Simple project:
            * gradle
            * mySQL
            * hibernate
