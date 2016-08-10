@@ -3,3 +3,6 @@
  * gradle
  * mySQL
  * hibernate
+
+<https://www.jetbrains.com/idea/features/#link5> 
+ 
