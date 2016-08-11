@@ -18,7 +18,12 @@ public class ShelterTest {
     public void setUp() throws Exception {
         Session session = Mysql.getSession();
         session.beginTransaction();
+        session.createNativeQuery("set FOREIGN_KEY_CHECKS = 0").executeUpdate();
         session.createNativeQuery("truncate table shelters").executeUpdate();
+        session.createNativeQuery("set FOREIGN_KEY_CHECKS = 1").executeUpdate();
+
+        Shelter shelter1 = new Shelter("shelter1", new Date());
+        session.save(shelter1);
 
         session.getTransaction().commit();
         session.close();
@@ -33,11 +38,11 @@ public class ShelterTest {
     public void shouldCreateNewShelterAndSave() throws Exception {
         Session session = Mysql.getSession();
         session.beginTransaction();
-        Shelter shelter = new Shelter("shelter1", new Date());
+        Shelter shelter = new Shelter("shelter A", new Date());
         session.save(shelter);
         session.getTransaction().commit();
         session.close();
-        assertEquals(1, shelter.getId());
+        assertEquals(2, shelter.getId());
     }
 
     @Test(expected = org.hibernate.exception.DataException.class)
@@ -59,8 +64,6 @@ public class ShelterTest {
     public void shouldNotSaveDuetoNameNotUnique() throws Exception {
         Session session = Mysql.getSession();
         session.beginTransaction();
-        Shelter shelter1 = new Shelter("shelter1", new Date());
-        session.save(shelter1);
         Shelter shelter2 = new Shelter("shelter1", new Date());
         try {
             session.save(shelter2);
@@ -85,5 +88,31 @@ public class ShelterTest {
             session.close();
         }
     }
+
+    @Test
+    public void shouldDeleteShelter() throws Exception {
+        Session session = Mysql.getSession();
+        session.beginTransaction();
+        Shelter shelter = new Shelter("Some shelter", new Date());
+        shelter.setId(1);
+        session.delete(shelter);
+        session.getTransaction().commit();
+        session.close();
+        assertEquals(1, shelter.getId());
+    }
+
+//    @Test
+//    public void shouldNotDeleteShelterDueToItDoesntExist() throws Exception {
+//        Session session = Mysql.getSession();
+//        session.beginTransaction();
+//        Shelter shelter = new Shelter("Shelter X", new Date());
+//        shelter.setId(40);
+//        try {
+//            session.delete(shelter);
+//            session.getTransaction().commit();
+//        } finally {
+//            session.close();
+//        }
+//    }
 
 }

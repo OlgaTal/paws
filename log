@@ -1,0 +1,1508 @@
+/usr/local/mysql/bin/mysqld, Version: 5.7.14 (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /tmp/mysql.sock
+Time                 Id Command    Argument
+2016-08-11T14:36:55.201825Z	  723 Query	select database()
+2016-08-11T14:38:10.106528Z	  725 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T14:38:10.113232Z	  725 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T14:38:10.162665Z	  725 Query	SET NAMES latin1
+2016-08-11T14:38:10.162900Z	  725 Query	SET character_set_results = NULL
+2016-08-11T14:38:10.163285Z	  725 Query	SET autocommit=1
+2016-08-11T14:38:10.164355Z	  725 Query	SET autocommit=0
+2016-08-11T14:38:10.166740Z	  725 Query	SET autocommit=0
+2016-08-11T14:38:10.209805Z	  725 Query	SET autocommit=1
+2016-08-11T14:38:10.563975Z	  725 Query	SET autocommit=0
+2016-08-11T14:38:10.565604Z	  725 Query	SET autocommit=0
+2016-08-11T14:38:10.599662Z	  725 Query	truncate table shelters
+2016-08-11T14:38:10.611475Z	  725 Query	commit
+2016-08-11T14:38:10.611674Z	  725 Query	SET autocommit=1
+2016-08-11T14:38:10.612771Z	  725 Query	SET autocommit=0
+2016-08-11T14:38:10.612901Z	  725 Query	SET autocommit=0
+2016-08-11T14:38:10.625700Z	  725 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11 14:38:10.612')
+2016-08-11T14:38:10.630355Z	  725 Query	commit
+2016-08-11T14:38:10.630669Z	  725 Query	SET autocommit=1
+2016-08-11T14:39:06.668202Z	  726 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T14:39:06.676389Z	  726 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T14:39:06.730434Z	  726 Query	SET NAMES latin1
+2016-08-11T14:39:06.730719Z	  726 Query	SET character_set_results = NULL
+2016-08-11T14:39:06.731137Z	  726 Query	SET autocommit=1
+2016-08-11T14:39:06.732122Z	  726 Query	SET autocommit=0
+2016-08-11T14:39:06.734267Z	  726 Query	SET autocommit=0
+2016-08-11T14:39:06.785622Z	  726 Query	SET autocommit=1
+2016-08-11T14:39:07.133801Z	  726 Query	SET autocommit=0
+2016-08-11T14:39:07.135515Z	  726 Query	SET autocommit=0
+2016-08-11T14:39:07.173317Z	  726 Query	truncate table shelters
+2016-08-11T14:39:07.189297Z	  726 Query	commit
+2016-08-11T14:39:07.189534Z	  726 Query	SET autocommit=1
+2016-08-11T14:39:07.190862Z	  726 Query	SET autocommit=0
+2016-08-11T14:39:07.191004Z	  726 Query	SET autocommit=0
+2016-08-11T14:39:07.205850Z	  726 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11 14:39:07.191')
+2016-08-11T14:39:07.210603Z	  726 Query	commit
+2016-08-11T14:39:07.210996Z	  726 Query	SET autocommit=1
+2016-08-11T14:40:21.758328Z	  727 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T14:40:21.765115Z	  727 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T14:40:21.815002Z	  727 Query	SET NAMES latin1
+2016-08-11T14:40:21.815326Z	  727 Query	SET character_set_results = NULL
+2016-08-11T14:40:21.815731Z	  727 Query	SET autocommit=1
+2016-08-11T14:40:21.816769Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:21.819135Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:21.869772Z	  727 Query	SET autocommit=1
+2016-08-11T14:40:22.201093Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.202854Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.235556Z	  727 Query	truncate table clients
+2016-08-11T14:40:22.255417Z	  727 Query	commit
+2016-08-11T14:40:22.255672Z	  727 Query	SET autocommit=1
+2016-08-11T14:40:22.256862Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.257014Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.272717Z	  727 Query	insert into clients (name) values ('jenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffff')
+2016-08-11T14:40:22.277317Z	  727 Query	SET autocommit=1
+2016-08-11T14:40:22.278825Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.278976Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.279516Z	  727 Query	truncate table clients
+2016-08-11T14:40:22.295737Z	  727 Query	commit
+2016-08-11T14:40:22.295940Z	  727 Query	SET autocommit=1
+2016-08-11T14:40:22.296256Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.296388Z	  727 Query	SET autocommit=0
+2016-08-11T14:40:22.297108Z	  727 Query	insert into clients (name) values ('jennifer')
+2016-08-11T14:40:22.301375Z	  727 Query	commit
+2016-08-11T14:40:22.301746Z	  727 Query	SET autocommit=1
+2016-08-11T14:53:24.864033Z	  728 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T14:53:24.872678Z	  728 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T14:53:24.916118Z	  728 Query	SET NAMES latin1
+2016-08-11T14:53:24.916343Z	  728 Query	SET character_set_results = NULL
+2016-08-11T14:53:24.916705Z	  728 Query	SET autocommit=1
+2016-08-11T14:53:24.919448Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:24.923430Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:24.987808Z	  728 Query	SET autocommit=1
+2016-08-11T14:53:25.375726Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.375969Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.408053Z	  728 Query	truncate table shelters
+2016-08-11T14:53:25.427257Z	  728 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T14:53:25.431468Z	  728 Query	commit
+2016-08-11T14:53:25.431886Z	  728 Query	SET autocommit=1
+2016-08-11T14:53:25.433386Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.433553Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.434555Z	  728 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T14:53:25.439785Z	  728 Query	SET autocommit=1
+2016-08-11T14:53:25.441002Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.441125Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.441593Z	  728 Query	truncate table shelters
+2016-08-11T14:53:25.447997Z	  728 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T14:53:25.448637Z	  728 Query	commit
+2016-08-11T14:53:25.448903Z	  728 Query	SET autocommit=1
+2016-08-11T14:53:25.449230Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.449358Z	  728 Query	SET autocommit=0
+2016-08-11T14:53:25.450074Z	  728 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T14:53:25.455763Z	  729 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T14:53:25.456051Z	  729 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T14:53:25.456741Z	  729 Query	SET NAMES latin1
+2016-08-11T14:53:25.456917Z	  729 Query	SET character_set_results = NULL
+2016-08-11T14:53:25.457125Z	  729 Query	SET autocommit=1
+2016-08-11T14:53:25.457273Z	  729 Query	SET autocommit=0
+2016-08-11T14:53:25.457398Z	  729 Query	SET autocommit=0
+2016-08-11T14:53:25.457828Z	  729 Query	truncate table shelters
+2016-08-11T14:54:42.821301Z	  730 Connect	localadmin@localhost on  using Socket
+2016-08-11T14:54:42.821326Z	  730 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T14:54:44.904060Z	  731 Connect	localadmin@localhost on  using Socket
+2016-08-11T14:54:44.904081Z	  731 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T14:54:45.457427Z	  732 Connect	localadmin@localhost on  using Socket
+2016-08-11T14:54:45.457448Z	  732 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+/usr/local/mysql/bin/mysqld, Version: 5.7.14 (MySQL Community Server (GPL)). started with:
+Tcp port: 3306  Unix socket: /tmp/mysql.sock
+Time                 Id Command    Argument
+2016-08-11T15:38:07.129496Z	  269 Query	select database()
+2016-08-11T15:38:10.879434Z	  270 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:38:10.879453Z	  270 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:38:21.833113Z	  271 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:38:21.833142Z	  271 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:38:26.775425Z	  272 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:38:26.780031Z	  272 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:38:26.798178Z	  272 Query	SET NAMES latin1
+2016-08-11T15:38:26.798482Z	  272 Query	SET character_set_results = NULL
+2016-08-11T15:38:26.798907Z	  272 Query	SET autocommit=1
+2016-08-11T15:38:26.799919Z	  272 Query	SET autocommit=0
+2016-08-11T15:38:26.801904Z	  272 Query	SET autocommit=0
+2016-08-11T15:38:26.883596Z	  272 Query	SET autocommit=1
+2016-08-11T15:38:27.240351Z	  272 Query	SET autocommit=0
+2016-08-11T15:38:27.240608Z	  272 Query	SET autocommit=0
+2016-08-11T15:38:27.274106Z	  272 Query	truncate table animals
+2016-08-11T15:38:27.291755Z	  272 Query	commit
+2016-08-11T15:38:27.294458Z	  272 Query	SET autocommit=1
+2016-08-11T15:38:27.297482Z	  272 Query	SET autocommit=0
+2016-08-11T15:38:27.297681Z	  272 Query	SET autocommit=0
+2016-08-11T15:38:27.318318Z	  272 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2013-02-11', 'Rover', '2014-06-19', 'M', 0, 'dog')
+2016-08-11T15:38:27.334323Z	  272 Query	commit
+2016-08-11T15:38:27.339041Z	  272 Query	SET autocommit=1
+2016-08-11T15:38:30.484863Z	  273 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:38:30.484889Z	  273 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:38:32.949840Z	  274 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:38:32.949879Z	  274 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:38:34.623713Z	   79 Query	SELECT * FROM PAWS.animals
+LIMIT 0, 1000
+2016-08-11T15:38:34.623963Z	   78 Query	SHOW INDEX FROM `PAWS`.`animals`
+2016-08-11T15:38:37.175288Z	   79 Query	SELECT * FROM PAWS.animals
+LIMIT 0, 1000
+2016-08-11T15:38:37.175607Z	   78 Query	SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 79
+2016-08-11T15:38:37.176028Z	   78 Query	SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 23
+2016-08-11T15:38:37.176234Z	   78 Query	SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 23
+2016-08-11T15:38:37.190716Z	   78 Query	SHOW INDEX FROM `PAWS`.`animals`
+2016-08-11T15:38:49.425498Z	  275 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:38:49.430795Z	  275 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:38:49.446173Z	  275 Query	SET NAMES latin1
+2016-08-11T15:38:49.446402Z	  275 Query	SET character_set_results = NULL
+2016-08-11T15:38:49.446752Z	  275 Query	SET autocommit=1
+2016-08-11T15:38:49.447750Z	  275 Query	SET autocommit=0
+2016-08-11T15:38:49.450060Z	  275 Query	SET autocommit=0
+2016-08-11T15:38:49.500459Z	  275 Query	SET autocommit=1
+2016-08-11T15:38:49.932548Z	  275 Query	SET autocommit=0
+2016-08-11T15:38:49.932836Z	  275 Query	SET autocommit=0
+2016-08-11T15:38:49.972052Z	  275 Query	truncate table animals
+2016-08-11T15:38:49.992271Z	  275 Query	commit
+2016-08-11T15:38:49.994316Z	  275 Query	SET autocommit=1
+2016-08-11T15:38:49.996152Z	  275 Query	SET autocommit=0
+2016-08-11T15:38:49.996394Z	  275 Query	SET autocommit=0
+2016-08-11T15:38:50.031583Z	  275 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values (null, 'RoverRoverRoverRoverRoverRoverRoverRoverRoverRover', null, null, 0, 'dog')
+2016-08-11T15:38:50.051352Z	  275 Query	SET autocommit=1
+2016-08-11T15:38:51.445336Z	  276 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:38:51.445357Z	  276 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:38:52.632255Z	   79 Query	SELECT * FROM PAWS.animals
+LIMIT 0, 1000
+2016-08-11T15:38:52.632570Z	   78 Query	SHOW INDEX FROM `PAWS`.`animals`
+2016-08-11T15:38:54.411052Z	  277 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:38:54.411083Z	  277 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:39:04.685811Z	  278 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:39:04.685835Z	  278 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:39:14.879016Z	  279 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:39:14.879038Z	  279 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:39:26.882918Z	  280 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:39:26.882939Z	  280 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:39:38.882743Z	  281 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:39:38.882762Z	  281 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:39:50.878550Z	  282 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:39:50.878571Z	  282 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:40:02.879040Z	  283 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:40:02.879061Z	  283 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:40:14.882100Z	  284 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:40:14.882120Z	  284 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:40:26.879601Z	  285 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:40:26.879634Z	  285 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:40:38.883675Z	  286 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:40:38.883701Z	  286 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:40:50.878271Z	  287 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:40:50.878293Z	  287 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:41:02.878484Z	  288 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:41:02.878506Z	  288 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:41:14.877962Z	  289 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:41:14.877982Z	  289 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:41:26.877974Z	  290 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:41:26.877995Z	  290 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:41:38.878094Z	  291 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:41:38.878117Z	  291 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:41:50.877327Z	  292 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:41:50.877354Z	  292 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:42:02.877796Z	  293 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:42:02.877821Z	  293 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:42:20.877662Z	  294 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:42:20.877682Z	  294 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:42:32.878239Z	  295 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:42:32.878259Z	  295 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:42:44.627084Z	  296 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:42:44.627110Z	  296 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:43:04.877279Z	  297 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:43:04.877300Z	  297 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:43:16.876926Z	  298 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:43:16.876964Z	  298 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:43:28.880826Z	  299 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:43:28.880848Z	  299 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:43:40.881260Z	  300 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:43:40.881282Z	  300 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:43:52.882572Z	  301 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:43:52.882592Z	  301 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:44:06.880676Z	  302 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:44:06.880698Z	  302 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:44:18.880243Z	  303 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:44:18.880265Z	  303 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:44:30.880445Z	  304 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:44:30.880466Z	  304 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:44:42.880170Z	  305 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:44:42.880193Z	  305 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:44:54.880504Z	  306 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:44:54.880525Z	  306 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:45:06.876098Z	  307 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:45:06.876118Z	  307 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:45:18.876042Z	  308 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:45:18.876064Z	  308 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:45:30.876045Z	  309 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:45:30.876066Z	  309 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:45:42.879938Z	  310 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:45:42.879959Z	  310 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:45:54.875946Z	  311 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:45:54.875969Z	  311 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:46:06.879404Z	  312 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:46:06.879424Z	  312 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:46:18.875641Z	  313 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:46:18.875674Z	  313 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:46:30.875658Z	  314 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:46:30.875679Z	  314 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:46:42.875326Z	  315 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:46:42.875348Z	  315 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:46:54.875239Z	  316 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:46:54.875259Z	  316 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:47:06.879404Z	  317 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:47:06.879428Z	  317 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:47:18.875589Z	  318 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:47:18.875611Z	  318 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:47:30.878918Z	  319 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:47:30.878937Z	  319 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:47:42.874786Z	  320 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:47:42.874807Z	  320 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:47:50.671293Z	  321 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:47:50.675943Z	  321 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:47:50.688010Z	  321 Query	SET NAMES latin1
+2016-08-11T15:47:50.688210Z	  321 Query	SET character_set_results = NULL
+2016-08-11T15:47:50.688624Z	  321 Query	SET autocommit=1
+2016-08-11T15:47:50.689345Z	  321 Query	SET autocommit=0
+2016-08-11T15:47:50.690966Z	  321 Query	SET autocommit=0
+2016-08-11T15:47:50.732283Z	  321 Query	SET autocommit=1
+2016-08-11T15:47:51.078785Z	  321 Query	SET autocommit=0
+2016-08-11T15:47:51.079026Z	  321 Query	SET autocommit=0
+2016-08-11T15:47:51.122964Z	  321 Query	truncate table animals
+2016-08-11T15:47:51.169500Z	  321 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T15:47:51.180012Z	  321 Query	commit
+2016-08-11T15:47:51.181233Z	  321 Query	SET autocommit=1
+2016-08-11T15:47:51.184369Z	  321 Query	SET autocommit=0
+2016-08-11T15:47:51.184564Z	  321 Query	SET autocommit=0
+2016-08-11T15:47:51.206929Z	  321 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T15:47:51.249055Z	  321 Query	update animals set birthday='2011-02-11', name='Ronald', placement='2014-06-09', sex='F', shelter_id=0, species='cat' where id=1
+2016-08-11T15:47:51.250829Z	  321 Query	commit
+2016-08-11T15:47:51.251163Z	  321 Query	SET autocommit=1
+2016-08-11T15:47:54.875189Z	  322 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:47:54.875211Z	  322 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:48:06.874940Z	  323 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:48:06.874968Z	  323 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:48:22.878434Z	  324 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:48:22.878456Z	  324 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:48:34.878636Z	  325 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:48:34.878657Z	  325 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:48:46.879749Z	  326 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:48:46.879773Z	  326 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:48:58.880685Z	  327 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:48:58.880704Z	  327 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:49:10.879204Z	  328 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:49:10.879225Z	  328 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:49:22.878771Z	  329 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:49:22.878793Z	  329 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:49:32.052161Z	  330 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:49:32.056338Z	  330 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:49:32.068108Z	  330 Query	SET NAMES latin1
+2016-08-11T15:49:32.068289Z	  330 Query	SET character_set_results = NULL
+2016-08-11T15:49:32.068580Z	  330 Query	SET autocommit=1
+2016-08-11T15:49:32.069390Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.071114Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.112428Z	  330 Query	SET autocommit=1
+2016-08-11T15:49:32.442434Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.442650Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.471755Z	  330 Query	truncate table animals
+2016-08-11T15:49:32.510991Z	  330 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T15:49:32.525468Z	  330 Query	commit
+2016-08-11T15:49:32.525852Z	  330 Query	SET autocommit=1
+2016-08-11T15:49:32.527516Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.527671Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.532963Z	  330 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T15:49:32.552146Z	  330 Query	update animals set birthday='2011-02-11', name='Ronald', placement='2014-06-09', sex='F', shelter_id=0, species='cat' where id=1
+2016-08-11T15:49:32.556381Z	  330 Query	commit
+2016-08-11T15:49:32.557927Z	  330 Query	SET autocommit=1
+2016-08-11T15:49:32.558431Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.559427Z	  330 Query	SET autocommit=0
+2016-08-11T15:49:32.560250Z	  330 Query	commit
+2016-08-11T15:49:32.560943Z	  330 Query	SET autocommit=1
+2016-08-11T15:49:34.873880Z	  331 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:49:34.873907Z	  331 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:49:38.873991Z	  332 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:49:38.874010Z	  332 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:49:40.076692Z	   79 Query	SELECT * FROM PAWS.animals
+LIMIT 0, 1000
+2016-08-11T15:49:40.076960Z	   78 Query	SHOW INDEX FROM `PAWS`.`animals`
+2016-08-11T15:49:50.874577Z	  333 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:49:50.874597Z	  333 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:50:05.679543Z	  334 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:50:05.679579Z	  334 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:50:16.873683Z	  335 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:50:16.873703Z	  335 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:50:28.873758Z	  336 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:50:28.873779Z	  336 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:50:40.873747Z	  337 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:50:40.873769Z	  337 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:50:52.873728Z	  338 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:50:52.873749Z	  338 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:51:04.877262Z	  339 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:51:04.877284Z	  339 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:51:16.877670Z	  340 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:51:16.877692Z	  340 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:51:28.877010Z	  341 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:51:28.877032Z	  341 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:51:40.877158Z	  342 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:51:40.877180Z	  342 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:51:52.872964Z	  343 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:51:52.872983Z	  343 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:52:04.873120Z	  344 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:52:04.873139Z	  344 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:52:16.877345Z	  345 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:52:16.877366Z	  345 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:52:28.876732Z	  346 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:52:28.876755Z	  346 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:52:40.878836Z	  347 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:52:40.878862Z	  347 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:52:52.876250Z	  348 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:52:52.876272Z	  348 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:53:04.874286Z	  349 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:53:04.874313Z	  349 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:53:16.872401Z	  350 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:53:16.872421Z	  350 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:53:28.876105Z	  351 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:53:28.876125Z	  351 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:53:40.872215Z	  352 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:53:40.872236Z	  352 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:53:52.876285Z	  353 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:53:52.876308Z	  353 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:54:04.875270Z	  354 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:54:04.875299Z	  354 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:54:12.871684Z	  355 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:54:12.871704Z	  355 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:54:15.591071Z	  356 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:54:15.600187Z	  356 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:54:15.653109Z	  356 Query	SET NAMES latin1
+2016-08-11T15:54:15.653390Z	  356 Query	SET character_set_results = NULL
+2016-08-11T15:54:15.653999Z	  356 Query	SET autocommit=1
+2016-08-11T15:54:15.655462Z	  356 Query	SET autocommit=0
+2016-08-11T15:54:15.661482Z	  356 Query	SET autocommit=0
+2016-08-11T15:54:15.715969Z	  356 Query	SET autocommit=1
+2016-08-11T15:54:16.158200Z	  356 Query	SET autocommit=0
+2016-08-11T15:54:16.158462Z	  356 Query	SET autocommit=0
+2016-08-11T15:54:16.201065Z	  356 Query	truncate table animals
+2016-08-11T15:54:16.230929Z	  356 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T15:54:16.236757Z	  356 Query	commit
+2016-08-11T15:54:16.237115Z	  356 Query	SET autocommit=1
+2016-08-11T15:54:16.238441Z	  356 Query	SET autocommit=0
+2016-08-11T15:54:16.238617Z	  356 Query	SET autocommit=0
+2016-08-11T15:54:16.242896Z	  356 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T15:54:16.249682Z	  356 Query	commit
+2016-08-11T15:54:16.249875Z	  356 Query	SET autocommit=1
+2016-08-11T15:54:30.875541Z	  357 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:54:30.875561Z	  357 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:54:42.872008Z	  358 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:54:42.872030Z	  358 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:54:54.872409Z	  359 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:54:54.872428Z	  359 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:55:02.871441Z	  360 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:55:02.871462Z	  360 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:55:10.035463Z	  361 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:55:10.035492Z	  361 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:55:14.444508Z	   78 Query	SHOW DATABASES
+2016-08-11T15:55:14.463005Z	   78 Query	SHOW FULL TABLES FROM `PAWS`
+2016-08-11T15:55:14.464342Z	   78 Query	SELECT name, type FROM mysql.proc WHERE Db='PAWS'
+2016-08-11T15:55:14.468721Z	   78 Query	SHOW COLUMNS FROM `PAWS`.`animals`
+2016-08-11T15:55:14.472796Z	   78 Query	SHOW COLUMNS FROM `PAWS`.`clients`
+2016-08-11T15:55:14.477090Z	   78 Query	SHOW COLUMNS FROM `PAWS`.`shelters`
+2016-08-11T15:55:14.885822Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`animals`
+2016-08-11T15:55:14.886515Z	   78 Query	SHOW INDEXES FROM `PAWS`.`animals`
+2016-08-11T15:55:14.899216Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`clients`
+2016-08-11T15:55:14.899674Z	   78 Query	SHOW INDEXES FROM `PAWS`.`clients`
+2016-08-11T15:55:14.900037Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`shelters`
+2016-08-11T15:55:14.900349Z	   78 Query	SHOW INDEXES FROM `PAWS`.`shelters`
+2016-08-11T15:55:20.871828Z	  362 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:55:20.871851Z	  362 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:55:41.634218Z	  363 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:55:41.634239Z	  363 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:55:47.558567Z	  364 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:55:47.563911Z	  364 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:55:47.614808Z	  364 Query	SET NAMES latin1
+2016-08-11T15:55:47.615034Z	  364 Query	SET character_set_results = NULL
+2016-08-11T15:55:47.615419Z	  364 Query	SET autocommit=1
+2016-08-11T15:55:47.616470Z	  364 Query	SET autocommit=0
+2016-08-11T15:55:47.623058Z	  364 Query	SET autocommit=0
+2016-08-11T15:55:47.688579Z	  364 Query	SET autocommit=1
+2016-08-11T15:55:48.121251Z	  364 Query	SET autocommit=0
+2016-08-11T15:55:48.121472Z	  364 Query	SET autocommit=0
+2016-08-11T15:55:48.154056Z	  364 Query	truncate table animals
+2016-08-11T15:55:48.180659Z	  364 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T15:55:48.184652Z	  364 Query	commit
+2016-08-11T15:55:48.185013Z	  364 Query	SET autocommit=1
+2016-08-11T15:55:48.186653Z	  364 Query	SET autocommit=0
+2016-08-11T15:55:48.186816Z	  364 Query	SET autocommit=0
+2016-08-11T15:55:48.189969Z	  364 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T15:55:48.195203Z	  364 Query	commit
+2016-08-11T15:55:48.195359Z	  364 Query	SET autocommit=1
+2016-08-11T15:55:52.871004Z	  365 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:55:52.871025Z	  365 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:56:04.871108Z	  366 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:56:04.871130Z	  366 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:56:16.873109Z	  367 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:56:16.873130Z	  367 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:56:28.870848Z	  368 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:56:28.870873Z	  368 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:56:35.330890Z	  369 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:56:35.330925Z	  369 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:56:46.870780Z	  370 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:56:46.870799Z	  370 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:56:58.870585Z	  371 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:56:58.870608Z	  371 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:57:16.870693Z	  372 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:57:16.870714Z	  372 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:57:28.870547Z	  373 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:57:28.870566Z	  373 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:57:40.877598Z	  374 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:57:40.877624Z	  374 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:57:52.873980Z	  375 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:57:52.874001Z	  375 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:58:04.870192Z	  376 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:58:04.870217Z	  376 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:58:16.870199Z	  377 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:58:16.870227Z	  377 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:58:19.290732Z	  378 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T15:58:19.296363Z	  378 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T15:58:19.345880Z	  378 Query	SET NAMES latin1
+2016-08-11T15:58:19.346093Z	  378 Query	SET character_set_results = NULL
+2016-08-11T15:58:19.346465Z	  378 Query	SET autocommit=1
+2016-08-11T15:58:19.347460Z	  378 Query	SET autocommit=0
+2016-08-11T15:58:19.349895Z	  378 Query	SET autocommit=0
+2016-08-11T15:58:19.397980Z	  378 Query	SET autocommit=1
+2016-08-11T15:58:19.753052Z	  378 Query	SET autocommit=0
+2016-08-11T15:58:19.753250Z	  378 Query	SET autocommit=0
+2016-08-11T15:58:19.778930Z	  378 Query	truncate table animals
+2016-08-11T15:58:19.809964Z	  378 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T15:58:19.813912Z	  378 Query	commit
+2016-08-11T15:58:19.814295Z	  378 Query	SET autocommit=1
+2016-08-11T15:58:19.815617Z	  378 Query	SET autocommit=0
+2016-08-11T15:58:19.815741Z	  378 Query	SET autocommit=0
+2016-08-11T15:58:19.819102Z	  378 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T15:58:19.823764Z	  378 Query	commit
+2016-08-11T15:58:19.823925Z	  378 Query	SET autocommit=1
+2016-08-11T15:58:36.874138Z	  379 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:58:36.874159Z	  379 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:58:48.873736Z	  380 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:58:48.873757Z	  380 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:59:00.869771Z	  381 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:59:00.869791Z	  381 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:59:12.869713Z	  382 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:59:12.869733Z	  382 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:59:30.869479Z	  383 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:59:30.869497Z	  383 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:59:42.869703Z	  384 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:59:42.869726Z	  384 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T15:59:56.869357Z	  385 Connect	localadmin@localhost on  using Socket
+2016-08-11T15:59:56.869378Z	  385 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:00:08.869133Z	  386 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:00:08.869155Z	  386 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:00:20.869251Z	  387 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:00:20.869276Z	  387 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:00:40.869302Z	  388 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:00:40.869327Z	  388 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:00:52.868813Z	  389 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:00:52.868833Z	  389 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:01:04.869210Z	  390 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:01:04.869231Z	  390 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:01:16.868651Z	  391 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:01:16.868676Z	  391 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:01:28.868666Z	  392 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:01:28.868690Z	  392 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:01:40.872458Z	  393 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:01:40.872481Z	  393 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:01:52.872431Z	  394 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:01:52.872454Z	  394 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:02:04.872573Z	  395 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:02:04.872601Z	  395 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:02:16.873163Z	  396 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:02:16.873184Z	  396 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:02:28.868366Z	  397 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:02:28.868391Z	  397 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:02:40.871931Z	  398 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:02:40.871955Z	  398 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:02:50.873042Z	  399 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:02:50.873069Z	  399 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:03:02.871819Z	  400 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:03:02.871841Z	  400 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:03:14.871821Z	  401 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:03:14.871844Z	  401 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:03:32.410353Z	  402 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:03:32.410378Z	  402 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:03:42.871714Z	  403 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:03:42.871734Z	  403 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:03:54.867388Z	  404 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:03:54.867409Z	  404 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:03:57.387098Z	  405 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:03:57.394308Z	  405 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:03:57.446643Z	  405 Query	SET NAMES latin1
+2016-08-11T16:03:57.446879Z	  405 Query	SET character_set_results = NULL
+2016-08-11T16:03:57.447326Z	  405 Query	SET autocommit=1
+2016-08-11T16:03:57.448471Z	  405 Query	SET autocommit=0
+2016-08-11T16:03:57.451013Z	  405 Query	SET autocommit=0
+2016-08-11T16:03:57.505615Z	  405 Query	SET autocommit=1
+2016-08-11T16:03:57.904047Z	  405 Query	SET autocommit=0
+2016-08-11T16:03:57.904258Z	  405 Query	SET autocommit=0
+2016-08-11T16:03:57.941994Z	  405 Query	truncate table animals
+2016-08-11T16:03:57.972169Z	  405 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:03:57.977415Z	  405 Query	commit
+2016-08-11T16:03:57.977771Z	  405 Query	SET autocommit=1
+2016-08-11T16:03:57.979360Z	  405 Query	SET autocommit=0
+2016-08-11T16:03:57.979502Z	  405 Query	SET autocommit=0
+2016-08-11T16:03:57.983041Z	  405 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:03:57.988260Z	  405 Query	commit
+2016-08-11T16:03:57.988434Z	  405 Query	SET autocommit=1
+2016-08-11T16:04:06.867811Z	  406 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:04:06.867835Z	  406 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:04:18.867848Z	  407 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:04:18.867872Z	  407 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:04:32.867327Z	  408 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:04:32.867347Z	  408 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:04:44.867168Z	  409 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:04:44.867203Z	  409 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:04:56.867145Z	  410 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:04:56.867170Z	  410 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:05:03.764455Z	  411 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:05:03.771520Z	  411 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:05:03.807617Z	  411 Query	SET NAMES latin1
+2016-08-11T16:05:03.807823Z	  411 Query	SET character_set_results = NULL
+2016-08-11T16:05:03.808190Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:03.810528Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:03.812370Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:03.851159Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.205000Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.205203Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.233034Z	  411 Query	truncate table animals
+2016-08-11T16:05:04.257771Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:05:04.261407Z	  411 Query	commit
+2016-08-11T16:05:04.261731Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.262877Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.263028Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.265982Z	  411 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:05:04.274642Z	  411 Query	update animals set birthday='2011-02-11', name='Ronald', placement='2014-06-09', sex='F', shelter_id=0, species='cat' where id=1
+2016-08-11T16:05:04.275102Z	  411 Query	commit
+2016-08-11T16:05:04.275341Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.275507Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.275619Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.275898Z	  411 Query	commit
+2016-08-11T16:05:04.276000Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.277186Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.277340Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.277771Z	  411 Query	truncate table animals
+2016-08-11T16:05:04.294270Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:05:04.294745Z	  411 Query	commit
+2016-08-11T16:05:04.294968Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.295243Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.295362Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.295882Z	  411 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:05:04.296640Z	  411 Query	commit
+2016-08-11T16:05:04.296791Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.297438Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.297605Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.298042Z	  411 Query	truncate table animals
+2016-08-11T16:05:04.311598Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:05:04.312119Z	  411 Query	commit
+2016-08-11T16:05:04.312358Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.312599Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.312724Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.313645Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values (null, 'Rover', null, null, 0, 'dog')
+2016-08-11T16:05:04.314051Z	  411 Query	commit
+2016-08-11T16:05:04.314268Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.314743Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.314853Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.315150Z	  411 Query	truncate table animals
+2016-08-11T16:05:04.336824Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:05:04.337307Z	  411 Query	commit
+2016-08-11T16:05:04.337541Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.337784Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.337897Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.339208Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2013-02-11', 'Rover', '2014-06-19', 'M', 0, 'dog')
+2016-08-11T16:05:04.339679Z	  411 Query	commit
+2016-08-11T16:05:04.339908Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.340432Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.340560Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.341022Z	  411 Query	truncate table animals
+2016-08-11T16:05:04.349292Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:05:04.349804Z	  411 Query	commit
+2016-08-11T16:05:04.350050Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.350341Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.350469Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.351341Z	  411 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values (null, 'RoverRoverRoverRoverRoverRoverRoverRoverRoverRover', null, null, 0, 'dog')
+2016-08-11T16:05:04.355836Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.356387Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.356512Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.356916Z	  411 Query	truncate table clients
+2016-08-11T16:05:04.366922Z	  411 Query	commit
+2016-08-11T16:05:04.367050Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.367348Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.367462Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.368113Z	  411 Query	insert into clients (name) values ('jenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffff')
+2016-08-11T16:05:04.368469Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.368852Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.368967Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.369294Z	  411 Query	truncate table clients
+2016-08-11T16:05:04.373699Z	  411 Query	commit
+2016-08-11T16:05:04.373822Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.374051Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.374137Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.374612Z	  411 Query	insert into clients (name) values ('jennifer')
+2016-08-11T16:05:04.375094Z	  411 Query	commit
+2016-08-11T16:05:04.375336Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.375746Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.375877Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.376380Z	  411 Query	truncate table shelters
+2016-08-11T16:05:04.383554Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:05:04.384052Z	  411 Query	commit
+2016-08-11T16:05:04.384331Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.384631Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.384757Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.385468Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:05:04.386418Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.386936Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.387055Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.387371Z	  411 Query	truncate table shelters
+2016-08-11T16:05:04.397250Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:05:04.397695Z	  411 Query	commit
+2016-08-11T16:05:04.397926Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.398170Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.398295Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.399072Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter A', '2016-08-11')
+2016-08-11T16:05:04.399551Z	  411 Query	commit
+2016-08-11T16:05:04.399799Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.400279Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.400388Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.400726Z	  411 Query	truncate table shelters
+2016-08-11T16:05:04.407401Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:05:04.407887Z	  411 Query	commit
+2016-08-11T16:05:04.408118Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.408365Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.408504Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.409176Z	  411 Query	insert into shelters (name, dateOpened) values ('jenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffff', '2016-08-11')
+2016-08-11T16:05:04.409449Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.409792Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.409904Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.410219Z	  411 Query	truncate table shelters
+2016-08-11T16:05:04.415391Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:05:04.415980Z	  411 Query	commit
+2016-08-11T16:05:04.416264Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.416585Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.416710Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.419606Z	  411 Query	delete from shelters where id=1
+2016-08-11T16:05:04.419989Z	  411 Query	commit
+2016-08-11T16:05:04.420278Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.420649Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.420764Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.421192Z	  411 Query	truncate table shelters
+2016-08-11T16:05:04.438570Z	  411 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:05:04.439441Z	  411 Query	commit
+2016-08-11T16:05:04.439723Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:04.439998Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.440093Z	  411 Query	SET autocommit=0
+2016-08-11T16:05:04.440378Z	  411 Query	SET autocommit=1
+2016-08-11T16:05:08.866779Z	  412 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:05:08.866799Z	  412 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:05:17.061516Z	  413 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:05:17.061544Z	  413 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:05:28.866661Z	  414 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:05:28.866680Z	  414 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:05:42.866716Z	  415 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:05:42.866742Z	  415 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:05:54.866773Z	  416 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:05:54.866793Z	  416 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:06:12.867446Z	  417 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:06:12.867468Z	  417 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:06:24.870566Z	  418 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:06:24.870590Z	  418 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:06:36.866364Z	  419 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:06:36.866385Z	  419 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:06:48.866149Z	  420 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:06:48.866170Z	  420 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:07:00.866117Z	  421 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:07:00.866140Z	  421 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:07:12.866098Z	  422 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:07:12.866119Z	  422 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:07:24.869954Z	  423 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:07:24.869978Z	  423 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:07:36.866050Z	  424 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:07:36.866072Z	  424 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:07:48.871162Z	  425 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:07:48.871189Z	  425 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:08:00.872682Z	  426 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:08:00.872704Z	  426 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:08:12.870281Z	  427 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:08:12.870301Z	  427 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:08:24.870323Z	  428 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:08:24.870347Z	  428 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:08:44.865442Z	  429 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:08:44.865465Z	  429 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:08:56.865245Z	  430 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:08:56.865266Z	  430 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:09:08.865282Z	  431 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:09:08.865302Z	  431 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:09:20.864996Z	  432 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:09:20.865023Z	  432 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:09:42.870449Z	  433 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:09:42.870469Z	  433 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:09:54.864983Z	  434 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:09:54.865004Z	  434 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:10:06.864583Z	  435 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:10:06.864603Z	  435 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:10:18.864518Z	  436 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:10:18.864542Z	  436 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:10:30.864289Z	  437 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:10:30.864311Z	  437 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:10:42.864186Z	  438 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:10:42.864214Z	  438 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:10:54.864298Z	  439 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:10:54.864321Z	  439 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:11:06.869321Z	  440 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:11:06.869342Z	  440 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:11:18.864079Z	  441 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:11:18.864099Z	  441 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:11:30.864041Z	  442 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:11:30.864062Z	  442 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:11:42.863892Z	  443 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:11:42.863923Z	  443 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:11:54.863816Z	  444 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:11:54.863837Z	  444 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:12:06.868485Z	  445 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:12:06.868509Z	  445 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:12:18.863497Z	  446 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:12:18.863519Z	  446 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:12:30.863602Z	  447 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:12:30.863625Z	  447 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:12:42.863531Z	  448 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:12:42.863552Z	  448 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:12:54.864197Z	  449 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:12:54.864217Z	  449 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:13:06.868157Z	  450 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:13:06.868181Z	  450 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:13:18.863015Z	  451 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:13:18.863036Z	  451 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:13:30.863268Z	  452 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:13:30.863291Z	  452 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:13:42.863057Z	  453 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:13:42.863083Z	  453 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:13:54.862749Z	  454 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:13:54.862769Z	  454 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:14:06.863393Z	  455 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:14:06.863415Z	  455 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:14:12.867909Z	  456 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:14:12.867931Z	  456 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:14:24.867379Z	  457 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:14:24.867401Z	  457 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:14:36.862669Z	  458 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:14:36.862689Z	  458 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:14:52.863245Z	  459 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:14:52.863266Z	  459 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:15:04.862693Z	  460 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:15:04.862713Z	  460 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:15:16.867070Z	  461 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:15:16.867091Z	  461 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:15:28.867049Z	  462 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:15:28.867070Z	  462 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:15:40.861950Z	  463 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:15:40.861972Z	  463 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:15:52.867197Z	  464 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:15:52.867221Z	  464 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:16:04.866618Z	  465 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:16:04.866638Z	  465 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:16:16.866580Z	  466 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:16:16.866602Z	  466 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:16:28.861780Z	  467 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:16:28.861800Z	  467 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:16:40.861660Z	  468 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:16:40.861682Z	  468 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:16:52.861448Z	  469 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:16:52.861471Z	  469 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:17:04.866230Z	  470 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:17:04.866250Z	  470 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:17:16.866157Z	  471 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:17:16.866178Z	  471 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:17:28.861510Z	  472 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:17:28.861533Z	  472 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:17:40.861183Z	  473 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:17:40.861205Z	  473 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:17:52.866050Z	  474 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:17:52.866071Z	  474 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:18:04.866038Z	  475 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:18:04.866059Z	  475 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:18:16.861101Z	  476 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:18:16.861124Z	  476 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:18:28.866213Z	  477 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:18:28.866239Z	  477 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:18:40.860915Z	  478 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:18:40.860936Z	  478 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:18:56.860710Z	  479 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:18:56.860731Z	  479 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:19:08.860307Z	  480 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:19:08.860329Z	  480 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:19:15.729494Z	  481 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:19:15.736694Z	  481 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:19:15.774926Z	  481 Query	SET NAMES latin1
+2016-08-11T16:19:15.775107Z	  481 Query	SET character_set_results = NULL
+2016-08-11T16:19:15.775461Z	  481 Query	SET autocommit=1
+2016-08-11T16:19:15.776189Z	  481 Query	SET autocommit=0
+2016-08-11T16:19:15.778250Z	  481 Query	SET autocommit=0
+2016-08-11T16:19:15.817892Z	  481 Query	SET autocommit=1
+2016-08-11T16:19:16.223939Z	  481 Query	SET autocommit=0
+2016-08-11T16:19:16.224118Z	  481 Query	SET autocommit=0
+2016-08-11T16:19:16.253168Z	  481 Query	truncate table animals
+2016-08-11T16:19:16.284077Z	  481 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 0, 0, 'cat')
+2016-08-11T16:19:20.860363Z	  482 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:19:20.860386Z	  482 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:19:32.860847Z	  483 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:19:32.860869Z	  483 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:19:48.860746Z	  484 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:19:48.860767Z	  484 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:20:00.860066Z	  485 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:20:00.860086Z	  485 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:20:12.859870Z	  486 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:20:12.859890Z	  486 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:20:24.864729Z	  487 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:20:24.864749Z	  487 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:20:36.864915Z	  488 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:20:36.864935Z	  488 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:20:42.864698Z	  489 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:20:42.864719Z	  489 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:20:54.859814Z	  490 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:20:54.859837Z	  490 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:21:06.864563Z	  491 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:21:06.864586Z	  491 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:21:18.865454Z	  492 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:21:18.865481Z	  492 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:21:40.864251Z	  493 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:21:40.864271Z	  493 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:21:52.864082Z	  494 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:21:52.864103Z	  494 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:22:04.864613Z	  495 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:22:04.864635Z	  495 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:22:16.859193Z	  496 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:22:16.859227Z	  496 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:22:28.859524Z	  497 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:22:28.859545Z	  497 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:22:34.863782Z	  498 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:22:34.863802Z	  498 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:22:50.859097Z	  499 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:22:50.859116Z	  499 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:23:02.863729Z	  500 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:23:02.863750Z	  500 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:23:14.863530Z	  501 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:23:14.863549Z	  501 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:23:26.858382Z	  502 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:23:26.858408Z	  502 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:23:38.858537Z	  503 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:23:38.858558Z	  503 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:23:50.858496Z	  504 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:23:50.858522Z	  504 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:24:02.859298Z	  505 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:24:02.859320Z	  505 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:24:12.859772Z	  506 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:24:12.859798Z	  506 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:24:24.864585Z	  507 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:24:24.864606Z	  507 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:24:38.268267Z	  508 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:24:38.268287Z	  508 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:24:48.865865Z	  509 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:24:48.865887Z	  509 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:25:00.860260Z	  510 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:25:00.860286Z	  510 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:25:08.794899Z	  511 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:25:08.803594Z	  511 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:25:08.847495Z	  511 Query	SET NAMES latin1
+2016-08-11T16:25:08.847697Z	  511 Query	SET character_set_results = NULL
+2016-08-11T16:25:08.848120Z	  511 Query	SET autocommit=1
+2016-08-11T16:25:08.849161Z	  511 Query	SET autocommit=0
+2016-08-11T16:25:08.851657Z	  511 Query	SET autocommit=0
+2016-08-11T16:25:08.891827Z	  511 Query	SET autocommit=1
+2016-08-11T16:25:09.300511Z	  511 Query	SET autocommit=0
+2016-08-11T16:25:09.300765Z	  511 Query	SET autocommit=0
+2016-08-11T16:25:09.333549Z	  511 Query	truncate table animals
+2016-08-11T16:25:09.375123Z	  511 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:25:09.380336Z	  511 Query	commit
+2016-08-11T16:25:09.380719Z	  511 Query	SET autocommit=1
+2016-08-11T16:25:09.383068Z	  511 Query	SET autocommit=0
+2016-08-11T16:25:09.383220Z	  511 Query	SET autocommit=0
+2016-08-11T16:25:09.387041Z	  511 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:25:09.393021Z	  511 Query	commit
+2016-08-11T16:25:09.393191Z	  511 Query	SET autocommit=1
+2016-08-11T16:25:12.862599Z	  512 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:25:12.862625Z	  512 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:25:24.862658Z	  513 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:25:24.862678Z	  513 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:25:36.862384Z	  514 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:25:36.862408Z	  514 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:25:48.858574Z	  515 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:25:48.858599Z	  515 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:26:00.861916Z	  516 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:26:00.861944Z	  516 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:26:12.857506Z	  517 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:26:12.857529Z	  517 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:26:24.857037Z	  518 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:26:24.857057Z	  518 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:26:36.857198Z	  519 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:26:36.857219Z	  519 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:26:48.862310Z	  520 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:26:48.862332Z	  520 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:02.857296Z	  521 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:02.857317Z	  521 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:14.860518Z	  522 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:14.860537Z	  522 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:26.856886Z	  523 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:26.856910Z	  523 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:28.856763Z	  524 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:28.856785Z	  524 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:30.857690Z	  525 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:30.857712Z	  525 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:42.856783Z	  526 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:42.856804Z	  526 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:27:54.856508Z	  527 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:27:54.856530Z	  527 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:06.856461Z	  528 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:06.856483Z	  528 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:18.856404Z	  529 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:18.856428Z	  529 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:30.856073Z	  530 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:30.856092Z	  530 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:42.856283Z	  531 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:42.856304Z	  531 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:44.857058Z	  532 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:44.857083Z	  532 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:46.856717Z	  533 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:46.856735Z	  533 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:48.856067Z	  534 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:48.856087Z	  534 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:50.857038Z	  535 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:50.857060Z	  535 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:52.856538Z	  536 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:52.856563Z	  536 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:54.856303Z	  537 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:54.856323Z	  537 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:56.857049Z	  538 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:56.857073Z	  538 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:28:58.856666Z	  539 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:28:58.856688Z	  539 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:00.860100Z	  540 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:00.860121Z	  540 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:02.856098Z	  541 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:02.856119Z	  541 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:04.856043Z	  542 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:04.856066Z	  542 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:06.857217Z	  543 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:06.857240Z	  543 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:08.857222Z	  544 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:08.857243Z	  544 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:10.859134Z	  545 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:10.859166Z	  545 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:12.000444Z	  546 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:29:12.004985Z	  546 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:29:12.017642Z	  546 Query	SET NAMES latin1
+2016-08-11T16:29:12.017825Z	  546 Query	SET character_set_results = NULL
+2016-08-11T16:29:12.018112Z	  546 Query	SET autocommit=1
+2016-08-11T16:29:12.018847Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.020568Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.063289Z	  546 Query	SET autocommit=1
+2016-08-11T16:29:12.408900Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.409156Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.445249Z	  546 Query	truncate table animals
+2016-08-11T16:29:12.488637Z	  546 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:12.495173Z	  546 Query	commit
+2016-08-11T16:29:12.495645Z	  546 Query	SET autocommit=1
+2016-08-11T16:29:12.497519Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.497711Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.502111Z	  546 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:29:12.520138Z	  546 Query	update animals set birthday='2011-02-11', name='Ronald', placement='2014-06-09', sex='F', shelter_id=0, species='cat' where id=1
+2016-08-11T16:29:12.521671Z	  546 Query	commit
+2016-08-11T16:29:12.523602Z	  546 Query	SET autocommit=1
+2016-08-11T16:29:12.525532Z	  546 Query	SET autocommit=0
+2016-08-11T16:29:12.527755Z	  546 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:29:12.532088Z	  546 Query	SET autocommit=1
+2016-08-11T16:29:12.860740Z	  547 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:12.860763Z	  547 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:14.860167Z	  548 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:14.860188Z	  548 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:16.856726Z	  549 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:16.856750Z	  549 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:18.859529Z	  550 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:18.859548Z	  550 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:20.860624Z	  551 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:20.860646Z	  551 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:22.860507Z	  552 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:22.860531Z	  552 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:24.860817Z	  553 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:24.860838Z	  553 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:26.859913Z	  554 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:26.859938Z	  554 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:28.860393Z	  555 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:28.860415Z	  555 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:30.859533Z	  556 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:30.859555Z	  556 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:32.857186Z	  557 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:32.857207Z	  557 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:34.860574Z	  558 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:34.860595Z	  558 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:36.859541Z	  559 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:36.859562Z	  559 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:38.855833Z	  560 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:38.855853Z	  560 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:40.859850Z	  561 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:40.859869Z	  561 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:42.856939Z	  562 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:42.856960Z	  562 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:44.860261Z	  563 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:44.860282Z	  563 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:46.856614Z	  564 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:46.856636Z	  564 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:48.865486Z	  565 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:48.865510Z	  565 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:50.864900Z	  566 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:50.864925Z	  566 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:51.584340Z	  567 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:29:51.591687Z	  567 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:29:51.631600Z	  567 Query	SET NAMES latin1
+2016-08-11T16:29:51.631803Z	  567 Query	SET character_set_results = NULL
+2016-08-11T16:29:51.632200Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:51.633477Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:51.635941Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:51.685221Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.178651Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.178907Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.213945Z	  567 Query	truncate table animals
+2016-08-11T16:29:52.277718Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:52.461789Z	  567 Query	commit
+2016-08-11T16:29:52.462289Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.464464Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.464627Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.468205Z	  567 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:29:52.481999Z	  567 Query	update animals set birthday='2011-02-11', name='Ronald', placement='2014-06-09', sex='F', shelter_id=0, species='cat' where id=1
+2016-08-11T16:29:52.482677Z	  567 Query	commit
+2016-08-11T16:29:52.483087Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.484532Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.485455Z	  567 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:29:52.486895Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.488764Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.488983Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.489633Z	  567 Query	truncate table animals
+2016-08-11T16:29:52.503631Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:52.504304Z	  567 Query	commit
+2016-08-11T16:29:52.504583Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.505193Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.505662Z	  567 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:29:52.506576Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.507278Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.507505Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.508058Z	  567 Query	truncate table animals
+2016-08-11T16:29:52.528307Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:52.529178Z	  567 Query	commit
+2016-08-11T16:29:52.529501Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.529882Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.530077Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.530884Z	  567 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:29:52.534618Z	  567 Query	delete from animals where id=1
+2016-08-11T16:29:52.535152Z	  567 Query	commit
+2016-08-11T16:29:52.535484Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.536111Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.536267Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.536749Z	  567 Query	truncate table animals
+2016-08-11T16:29:52.555301Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:52.556080Z	  567 Query	commit
+2016-08-11T16:29:52.556362Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.556684Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.556818Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.557914Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values (null, 'Rover', null, null, 0, 'dog')
+2016-08-11T16:29:52.558509Z	  567 Query	commit
+2016-08-11T16:29:52.558793Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.559351Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.559501Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.559896Z	  567 Query	truncate table animals
+2016-08-11T16:29:52.568016Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:52.568666Z	  567 Query	commit
+2016-08-11T16:29:52.568944Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.569312Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.569449Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.571077Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2013-02-11', 'Rover', '2014-06-19', 'M', 0, 'dog')
+2016-08-11T16:29:52.572159Z	  567 Query	commit
+2016-08-11T16:29:52.572575Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.573355Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.573545Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.574142Z	  567 Query	truncate table animals
+2016-08-11T16:29:52.599978Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:29:52.600692Z	  567 Query	commit
+2016-08-11T16:29:52.600980Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.601462Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.601609Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.602653Z	  567 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values (null, 'RoverRoverRoverRoverRoverRoverRoverRoverRoverRover', null, null, 0, 'dog')
+2016-08-11T16:29:52.608379Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.609199Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.609391Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.610036Z	  567 Query	truncate table clients
+2016-08-11T16:29:52.633343Z	  567 Query	commit
+2016-08-11T16:29:52.633506Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.633856Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.633978Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.634486Z	  567 Query	insert into clients (name) values ('jenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffff')
+2016-08-11T16:29:52.634851Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.635307Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.635436Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.635874Z	  567 Query	truncate table clients
+2016-08-11T16:29:52.651640Z	  567 Query	commit
+2016-08-11T16:29:52.651809Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.652105Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.652237Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.652826Z	  567 Query	insert into clients (name) values ('jennifer')
+2016-08-11T16:29:52.653348Z	  567 Query	commit
+2016-08-11T16:29:52.653576Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.654086Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.654248Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.654729Z	  567 Query	truncate table shelters
+2016-08-11T16:29:52.672237Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:29:52.672863Z	  567 Query	commit
+2016-08-11T16:29:52.673170Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.673552Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.673687Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.674593Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:29:52.675867Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.676558Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.676724Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.677217Z	  567 Query	truncate table shelters
+2016-08-11T16:29:52.694492Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:29:52.695045Z	  567 Query	commit
+2016-08-11T16:29:52.695304Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.695586Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.695717Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.696395Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter A', '2016-08-11')
+2016-08-11T16:29:52.696968Z	  567 Query	commit
+2016-08-11T16:29:52.697207Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.697605Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.697743Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.698094Z	  567 Query	truncate table shelters
+2016-08-11T16:29:52.709383Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:29:52.709838Z	  567 Query	commit
+2016-08-11T16:29:52.710109Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.710422Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.710547Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.711299Z	  567 Query	insert into shelters (name, dateOpened) values ('jenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffffjenniferasffffffffffffffffffffff', '2016-08-11')
+2016-08-11T16:29:52.711654Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.712112Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.712275Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.712717Z	  567 Query	truncate table shelters
+2016-08-11T16:29:52.734773Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:29:52.735582Z	  567 Query	commit
+2016-08-11T16:29:52.735908Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.736203Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.736335Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.738156Z	  567 Query	delete from shelters where id=1
+2016-08-11T16:29:52.738614Z	  567 Query	commit
+2016-08-11T16:29:52.738879Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.739336Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.739472Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.739816Z	  567 Query	truncate table shelters
+2016-08-11T16:29:52.755757Z	  567 Query	insert into shelters (name, dateOpened) values ('shelter1', '2016-08-11')
+2016-08-11T16:29:52.756634Z	  567 Query	commit
+2016-08-11T16:29:52.756866Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.757118Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.757223Z	  567 Query	SET autocommit=0
+2016-08-11T16:29:52.757505Z	  567 Query	SET autocommit=1
+2016-08-11T16:29:52.856287Z	  568 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:52.856315Z	  568 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:54.861395Z	  569 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:54.861428Z	  569 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:56.860880Z	  570 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:56.860903Z	  570 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:29:58.859642Z	  571 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:29:58.859666Z	  571 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:00.859427Z	  572 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:00.859447Z	  572 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:02.856712Z	  573 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:02.856737Z	  573 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:04.856054Z	  574 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:04.856076Z	  574 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:06.859484Z	  575 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:06.859505Z	  575 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:08.860381Z	  576 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:08.860409Z	  576 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:10.859753Z	  577 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:10.859775Z	  577 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:12.855604Z	  578 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:12.855628Z	  578 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:14.855276Z	  579 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:14.855299Z	  579 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:16.858975Z	  580 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:16.858994Z	  580 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:18.855574Z	  581 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:18.855597Z	  581 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:20.855972Z	  582 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:20.855991Z	  582 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:22.855537Z	  583 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:22.855559Z	  583 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:24.856221Z	  584 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:24.856245Z	  584 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:26.859754Z	  585 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:26.859775Z	  585 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:28.859567Z	  586 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:28.859588Z	  586 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:30.856136Z	  587 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:30.856156Z	  587 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:32.856125Z	  588 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:32.856145Z	  588 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:34.861580Z	  589 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:34.861602Z	  589 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:36.855583Z	  590 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:36.855604Z	  590 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:38.860357Z	  591 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:38.860379Z	  591 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:40.855948Z	  592 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:40.855973Z	  592 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:42.856421Z	  593 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:42.856459Z	  593 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:44.856447Z	  594 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:44.856473Z	  594 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:46.855668Z	  595 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:46.855700Z	  595 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:48.859994Z	  596 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:48.860018Z	  596 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:50.854999Z	  597 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:50.855020Z	  597 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:52.855047Z	  598 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:52.855071Z	  598 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:54.855683Z	  599 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:54.855715Z	  599 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:56.856077Z	  600 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:56.856101Z	  600 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:30:58.854855Z	  601 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:30:58.854877Z	  601 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:00.855514Z	  602 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:00.855540Z	  602 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:02.855593Z	  603 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:02.855623Z	  603 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:04.855086Z	  604 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:04.855109Z	  604 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:06.854877Z	  605 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:06.854898Z	  605 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:08.860336Z	  606 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:08.860370Z	  606 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:10.855013Z	  607 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:10.855033Z	  607 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:12.856094Z	  608 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:12.856119Z	  608 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:14.859518Z	  609 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:14.859542Z	  609 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:16.812330Z	  610 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:31:16.817597Z	  610 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:31:16.856731Z	  611 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:16.856758Z	  611 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:16.859661Z	  610 Query	SET NAMES latin1
+2016-08-11T16:31:16.859892Z	  610 Query	SET character_set_results = NULL
+2016-08-11T16:31:16.860282Z	  610 Query	SET autocommit=1
+2016-08-11T16:31:16.861162Z	  610 Query	SET autocommit=0
+2016-08-11T16:31:16.863110Z	  610 Query	SET autocommit=0
+2016-08-11T16:31:16.906513Z	  610 Query	SET autocommit=1
+2016-08-11T16:31:17.272483Z	  610 Query	SET autocommit=0
+2016-08-11T16:31:17.272695Z	  610 Query	SET autocommit=0
+2016-08-11T16:31:17.310532Z	  610 Query	truncate table animals
+2016-08-11T16:31:17.330934Z	  610 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:31:17.336856Z	  610 Query	commit
+2016-08-11T16:31:17.337196Z	  610 Query	SET autocommit=1
+2016-08-11T16:31:17.338479Z	  610 Query	SET autocommit=0
+2016-08-11T16:31:17.338632Z	  610 Query	SET autocommit=0
+2016-08-11T16:31:17.341360Z	  610 Query	select animal0_.id as id1_0_0_, animal0_.birthday as birthday2_0_0_, animal0_.name as name3_0_0_, animal0_.placement as placemen4_0_0_, animal0_.sex as sex5_0_0_, animal0_.shelter_id as shelter_6_0_0_, animal0_.species as species7_0_0_ from animals animal0_ where animal0_.id=1
+2016-08-11T16:31:17.351670Z	  610 Query	delete from animals where id=1
+2016-08-11T16:31:17.352310Z	  610 Query	commit
+2016-08-11T16:31:17.352565Z	  610 Query	SET autocommit=1
+2016-08-11T16:31:18.860097Z	  612 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:18.860122Z	  612 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:20.854994Z	  613 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:20.855016Z	  613 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:22.856108Z	  614 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:22.856131Z	  614 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:24.856124Z	  615 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:24.856162Z	  615 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:26.856450Z	  616 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:26.856474Z	  616 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:26.911175Z	   78 Query	SHOW DATABASES
+2016-08-11T16:31:26.915242Z	   78 Query	SHOW FULL TABLES FROM `PAWS`
+2016-08-11T16:31:26.916381Z	   78 Query	SELECT name, type FROM mysql.proc WHERE Db='PAWS'
+2016-08-11T16:31:26.921764Z	   78 Query	SHOW COLUMNS FROM `PAWS`.`animals`
+2016-08-11T16:31:26.927698Z	   78 Query	SHOW COLUMNS FROM `PAWS`.`clients`
+2016-08-11T16:31:26.935384Z	   78 Query	SHOW COLUMNS FROM `PAWS`.`shelters`
+2016-08-11T16:31:27.369176Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`animals`
+2016-08-11T16:31:27.369821Z	   78 Query	SHOW INDEXES FROM `PAWS`.`animals`
+2016-08-11T16:31:27.381337Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`clients`
+2016-08-11T16:31:27.381843Z	   78 Query	SHOW INDEXES FROM `PAWS`.`clients`
+2016-08-11T16:31:27.382196Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`shelters`
+2016-08-11T16:31:27.382536Z	   78 Query	SHOW INDEXES FROM `PAWS`.`shelters`
+2016-08-11T16:31:28.855161Z	  617 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:28.855185Z	  617 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:30.856306Z	  618 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:30.856327Z	  618 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:32.856498Z	  619 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:32.856524Z	  619 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:34.855599Z	  620 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:34.855620Z	  620 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:36.854823Z	  621 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:36.854842Z	  621 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:38.859739Z	  622 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:38.859759Z	  622 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:40.855284Z	  623 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:40.855307Z	  623 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:42.855529Z	  624 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:42.855552Z	  624 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:44.854725Z	  625 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:44.854749Z	  625 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:46.855635Z	  626 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:46.855654Z	  626 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:48.855465Z	  627 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:48.855489Z	  627 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:50.855558Z	  628 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:50.855579Z	  628 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:52.855001Z	  629 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:52.855023Z	  629 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:54.858545Z	  630 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:54.858569Z	  630 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:55.751335Z	   78 Query	SHOW TRIGGERS FROM `PAWS` WHERE `Table` = 'animals'
+2016-08-11T16:31:55.751678Z	   78 Query	SHOW CREATE TABLE `PAWS`.`animals`
+2016-08-11T16:31:55.751868Z	   78 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2016-08-11T16:31:55.803398Z	   78 Query	SHOW DATABASES LIKE 'PAWS'
+2016-08-11T16:31:55.803660Z	   78 Query	SHOW FULL TABLES FROM `PAWS` LIKE '%'
+2016-08-11T16:31:56.855165Z	  631 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:56.855185Z	  631 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:31:58.858423Z	  632 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:31:58.858446Z	  632 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:00.854748Z	  633 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:00.854768Z	  633 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:02.858766Z	  634 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:02.858787Z	  634 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:04.854953Z	  635 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:04.854971Z	  635 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:06.855448Z	  636 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:06.855471Z	  636 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:08.855570Z	  637 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:08.855596Z	  637 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:10.855333Z	  638 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:10.855356Z	  638 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:12.854564Z	  639 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:12.854584Z	  639 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:14.858786Z	  640 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:14.858806Z	  640 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:16.854317Z	  641 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:16.854336Z	  641 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:18.855356Z	  642 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:18.855377Z	  642 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:20.859158Z	  643 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:20.859178Z	  643 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:22.854133Z	  644 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:22.854155Z	  644 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:24.859018Z	  645 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:24.859048Z	  645 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:26.857964Z	  646 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:26.857984Z	  646 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:28.855694Z	  647 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:28.855718Z	  647 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:30.858999Z	  648 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:30.859019Z	  648 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:32.858270Z	  649 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:32.858293Z	  649 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:34.859104Z	  650 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:34.859125Z	  650 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:36.855264Z	  651 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:36.855286Z	  651 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:38.855385Z	  652 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:38.855408Z	  652 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:40.857969Z	  653 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:32:40.857998Z	  653 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:32:42.564292Z	   78 Query	SHOW TRIGGERS FROM `PAWS` WHERE `Table` = 'shelters'
+2016-08-11T16:32:42.564622Z	   78 Query	SHOW CREATE TABLE `PAWS`.`shelters`
+2016-08-11T16:32:42.564842Z	   78 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2016-08-11T16:33:00.857823Z	  654 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:33:00.857847Z	  654 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:33:08.543103Z	   79 Query	ALTER TABLE `PAWS`.`animals` 
+ADD INDEX `FK_SHELTER_idx` (`shelter_id` ASC)
+2016-08-11T16:33:08.560717Z	   79 Query	ALTER TABLE `PAWS`.`animals` 
+ADD CONSTRAINT `FK_SHELTER`
+  FOREIGN KEY (`shelter_id`)
+  REFERENCES `PAWS`.`shelters` (`id`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION
+2016-08-11T16:33:08.870745Z	   78 Query	SHOW FULL COLUMNS FROM `PAWS`.`animals`
+2016-08-11T16:33:08.871420Z	   78 Query	SHOW INDEXES FROM `PAWS`.`animals`
+2016-08-11T16:33:08.985472Z	   78 Query	SHOW TRIGGERS FROM `PAWS` WHERE `Table` = 'animals'
+2016-08-11T16:33:08.985838Z	   78 Query	SHOW CREATE TABLE `PAWS`.`animals`
+2016-08-11T16:33:08.986112Z	   78 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2016-08-11T16:33:08.989921Z	   78 Query	SHOW DATABASES LIKE 'PAWS'
+2016-08-11T16:33:08.990147Z	   78 Query	SHOW FULL TABLES FROM `PAWS` LIKE '%'
+2016-08-11T16:33:08.990623Z	   78 Query	SHOW TRIGGERS FROM `PAWS` WHERE `Table` = 'shelters'
+2016-08-11T16:33:08.990899Z	   78 Query	SHOW CREATE TABLE `PAWS`.`shelters`
+2016-08-11T16:33:08.991105Z	   78 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2016-08-11T16:33:11.654743Z	   78 Query	SHOW TRIGGERS FROM `PAWS` WHERE `Table` = 'animals'
+2016-08-11T16:33:11.655071Z	   78 Query	SHOW CREATE TABLE `PAWS`.`animals`
+2016-08-11T16:33:11.655279Z	   78 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2016-08-11T16:33:11.658473Z	   78 Query	SHOW DATABASES LIKE 'PAWS'
+2016-08-11T16:33:11.658677Z	   78 Query	SHOW FULL TABLES FROM `PAWS` LIKE '%'
+2016-08-11T16:33:11.659136Z	   78 Query	SHOW TRIGGERS FROM `PAWS` WHERE `Table` = 'shelters'
+2016-08-11T16:33:11.659423Z	   78 Query	SHOW CREATE TABLE `PAWS`.`shelters`
+2016-08-11T16:33:11.659634Z	   78 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+2016-08-11T16:33:12.860815Z	  655 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:33:12.860844Z	  655 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:33:28.608601Z	  656 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:33:28.614195Z	  656 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:33:28.664550Z	  656 Query	SET NAMES latin1
+2016-08-11T16:33:28.664772Z	  656 Query	SET character_set_results = NULL
+2016-08-11T16:33:28.665191Z	  656 Query	SET autocommit=1
+2016-08-11T16:33:28.666598Z	  656 Query	SET autocommit=0
+2016-08-11T16:33:28.669579Z	  656 Query	SET autocommit=0
+2016-08-11T16:33:28.709831Z	  656 Query	SET autocommit=1
+2016-08-11T16:33:29.045666Z	  656 Query	SET autocommit=0
+2016-08-11T16:33:29.045881Z	  656 Query	SET autocommit=0
+2016-08-11T16:33:29.070702Z	  656 Query	truncate table animals
+2016-08-11T16:33:29.110888Z	  656 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:33:29.119909Z	  657 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:33:29.120260Z	  657 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:33:29.121033Z	  657 Query	SET NAMES latin1
+2016-08-11T16:33:29.121195Z	  657 Query	SET character_set_results = NULL
+2016-08-11T16:33:29.121427Z	  657 Query	SET autocommit=1
+2016-08-11T16:33:29.121586Z	  657 Query	SET autocommit=0
+2016-08-11T16:33:29.121724Z	  657 Query	SET autocommit=0
+2016-08-11T16:33:29.122218Z	  657 Query	truncate table animals
+2016-08-11T16:33:30.720745Z	  658 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:33:30.720768Z	  658 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:33:40.858430Z	  659 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:33:40.858452Z	  659 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:33:52.857926Z	  660 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:33:52.857947Z	  660 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:34:12.857140Z	  661 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:34:12.857164Z	  661 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:34:24.853410Z	  662 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:34:24.853435Z	  662 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:34:36.857451Z	  663 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:34:36.857470Z	  663 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:34:58.858161Z	  664 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:34:58.858180Z	  664 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:35:10.852922Z	  665 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:35:10.852945Z	  665 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:35:20.619901Z	  666 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:35:20.625497Z	  666 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:35:20.664827Z	  666 Query	SET NAMES latin1
+2016-08-11T16:35:20.665039Z	  666 Query	SET character_set_results = NULL
+2016-08-11T16:35:20.665342Z	  666 Query	SET autocommit=1
+2016-08-11T16:35:20.666313Z	  666 Query	SET autocommit=0
+2016-08-11T16:35:20.668284Z	  666 Query	SET autocommit=0
+2016-08-11T16:35:20.706004Z	  666 Query	SET autocommit=1
+2016-08-11T16:35:21.060860Z	  666 Query	SET autocommit=0
+2016-08-11T16:35:21.061075Z	  666 Query	SET autocommit=0
+2016-08-11T16:35:21.087858Z	  666 Query	set FOREIGN_KEY_CHECKS = 0
+2016-08-11T16:35:21.088349Z	  666 Query	truncate table animals
+2016-08-11T16:35:21.093536Z	  666 Query	set FOREIGN_KEY_CHECKS = 1
+2016-08-11T16:35:21.108763Z	  666 Query	insert into animals (birthday, name, placement, sex, shelter_id, species) values ('2011-02-11', 'Boomer', '2014-06-09', 'F', 0, 'cat')
+2016-08-11T16:35:21.120181Z	  667 Connect	root@localhost on PAWS using TCP/IP
+2016-08-11T16:35:21.120547Z	  667 Query	/* mysql-connector-java-6.0.3 ( Revision: 9fb85a76ccb7506157e668f1516464a46e317d4a ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout
+2016-08-11T16:35:21.121360Z	  667 Query	SET NAMES latin1
+2016-08-11T16:35:21.121540Z	  667 Query	SET character_set_results = NULL
+2016-08-11T16:35:21.121748Z	  667 Query	SET autocommit=1
+2016-08-11T16:35:21.121918Z	  667 Query	SET autocommit=0
+2016-08-11T16:35:21.122057Z	  667 Query	SET autocommit=0
+2016-08-11T16:35:21.122633Z	  667 Query	set FOREIGN_KEY_CHECKS = 0
+2016-08-11T16:35:21.123010Z	  667 Query	truncate table animals
+2016-08-11T16:35:22.857413Z	  668 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:35:22.857433Z	  668 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:35:29.845704Z	  669 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:35:29.845729Z	  669 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:35:30.856657Z	  670 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:35:30.856684Z	  670 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)
+2016-08-11T16:35:31.947083Z	  671 Connect	localadmin@localhost on  using Socket
+2016-08-11T16:35:31.947103Z	  671 Connect	Access denied for user 'localadmin'@'localhost' (using password: NO)

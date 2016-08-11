@@ -12,6 +12,6 @@
         <property name="format_sql">true</property>
         <mapping class="com.compozed.models.Shelter"/>
         <mapping class="com.compozed.models.Client"/>
-        <!--<mapping class="com.compozed.models.Animal"/>-->
+        <mapping class="com.compozed.models.Animal"/>
     </session-factory>
 </hibernate-configuration>
